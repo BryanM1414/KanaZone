@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Toolbar with "Select Language" title -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:title="@string/select_language"
+        android:titleTextColor="@android:color/white"
+        app:titleTextColor="@android:color/white" />
+
+    <!-- Button for Japanese language -->
+    <Button
+        android:id="@+id/buttonJapanese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/japanese"
+        android:layout_below="@id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <!-- Button for "Coming Soon" -->
+    <Button
+        android:id="@+id/buttonComingSoon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/coming_soon"
+        android:layout_below="@id/buttonJapanese"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

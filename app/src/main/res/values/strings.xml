@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">KanaZone</string>
+    <string name="select_language">Select Language</string>
+    <string name="japanese">Japanese</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="tap_to_start">Tap to Start</string>
+</resources>
